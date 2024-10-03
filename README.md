@@ -55,7 +55,6 @@ sudo ./setup_server.sh
 ## Troubleshooting
 - **Permission Denied:** Ensure you run the script with `sudo`.
 - **SSL Warnings:** Since a self-signed certificate is used, browsers will show a warning. To prevent this, add the generated certificate (`/etc/ssl/certs/myserver.crt`) to your browser's trusted certificate store.
-- **Slow or No Boot After BIOS Update:** If your laptop exhibits booting issues after BIOS updates, you may need to clear CMOS settings or verify BIOS configurations.
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE` file.
